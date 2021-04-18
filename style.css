@@ -1,0 +1,69 @@
+/* Properties for body */
+body{
+    background-color: rgb(92, 184, 184);
+
+}
+
+/* Properties for main heading */
+h1{
+    text-align: center;
+    color: rgb(70, 68, 68);
+    font-size: 50px;
+}
+
+/* Properties for form  */
+form{
+    margin: 20px auto;
+    color: rgb(7, 58, 226);
+    width: 300px;
+}
+
+/* Properties for inputs*/
+input{
+    margin: 15px 0px;
+    padding: 5px ;
+    font-size: 17px;
+}
+input[type="text"]{
+    border: 3px solid steelblue;
+    display: block;
+    width: 100%;
+}
+input[type="email"]{
+    border: 3px solid steelblue;
+    display: block;
+    width: 100%;
+}
+input[type="password"]{
+    border: 3px solid steelblue;
+    display: block;
+    width: 100%;
+}
+/* for radio buttons */
+input[type="radio"]{
+    margin: 8px;
+    font-size: 17px;
+}
+
+/* for submit button */
+input[type="submit"]{
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    border: none;
+}
+
+input:focus{
+    background-color: white;
+}
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input[type="submit"]:focus{
+    width: 100%;
+    background-color: white;
+    color:  steelblue;
+    border: 2px solid steelblue;
+}
